@@ -4,7 +4,7 @@ Minimal Zig host demo: native in-process call into `rx4` via rig + equilibrium-f
 
 ```bash
 cd examples/zig-host-rx4
-cargo install rigpkg   # or: cargo install --path ../.. / --git https://github.com/tschk/rig
+cargo install rigpkg   # or: cargo install --path ../.. / --git https://github.com/softwarecorporation/rig
 rig init
 rig add --rust rx4
 zig build run

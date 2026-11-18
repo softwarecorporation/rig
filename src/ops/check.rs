@@ -77,6 +77,6 @@ pub fn run(args: &CheckArgs, g: &Globals) -> Result<u8> {
     }
 
     // equilibrium-ffi crate availability is optional; note it
-    println!("note  equilibrium-ffi: https://github.com/tschk/equilibrium");
+    println!("note  equilibrium-ffi: https://github.com/softwarecorporation/equilibrium");
     Ok(status)
 }

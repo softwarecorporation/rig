@@ -4,7 +4,7 @@ use ureq::Agent;
 
 pub fn agent() -> Agent {
     ureq::AgentBuilder::new()
-        .user_agent("rig/0.1 (+https://github.com/tschk/rig)")
+        .user_agent("rig/0.1 (+https://github.com/softwarecorporation/rig)")
         .timeout_connect(std::time::Duration::from_secs(10))
         .timeout_read(std::time::Duration::from_secs(30))
         .build()

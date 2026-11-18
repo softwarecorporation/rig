@@ -16,7 +16,7 @@ version = "0.0.0"
 [dependencies.rx4]
 ecosystem = "cargo"
 version = "0.7.1"
-# git = "https://github.com/tschk/rotary"  # optional override
+# git = "https://github.com/softwarecorporation/rotary"  # optional override
 features = ["builtin-tools"]
 default_features = false
 expose = true

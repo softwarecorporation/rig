@@ -21,7 +21,7 @@ pub fn rig_native_{crate_ident}() -> &'static str {{
 
 /// Documents the equilibrium-ffi load path when a foreign/cdylib surface is available.
 pub fn rig_equilibrium_hint_{crate_ident}() -> &'static str {{
-    "equilibrium_ffi::load / generate_imports — see https://github.com/tschk/equilibrium"
+    "equilibrium_ffi::load / generate_imports — see https://github.com/softwarecorporation/equilibrium"
 }}
 "#
     );
